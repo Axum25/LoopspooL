@@ -56,7 +56,7 @@ void ForLoop()
 
   cout << endl << "A for loop can express multiplication as a loop of addition, lets see this in action." << endl;
 
-  vector <int> integer_Input;
+  vector <int> integer_Input(1,0);
   cout << endl << "Choose two whole numbers you would like to multiply." << endl;
   cout << "Enter First number: ";
   cin >> integer_Input[0];
