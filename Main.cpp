@@ -20,7 +20,7 @@ int main()
             switch (menuChoice)
             {
               case 1:
-                cout << endl <<"Entering For Loop Session"<< endl;
+                cout << endl << "Entering For Loop Session" << endl;
                    ForLoop();
                 break;
               case 2:
@@ -54,9 +54,9 @@ void ForLoop()
   cout << "A for loop is a \"pretest\" loop, the loop condition is evaluated before executing the body of the loop." << endl;
   cout << endl << "The word \"for\" in a for loop is a reserved word.," << endl << "the syntax for a for loop is: " << endl << endl << " for (initialize statement; loop condition; update statement)" << endl << "\t{" << endl << endl << "\tstatement / body of for loop" << endl << endl << "\t}" << endl;
 
-  cout << endl << "A for loop can express multiplication as a loop of addition, lets see this in action."<<endl;
+  cout << endl << "A for loop can express multiplication as a loop of addition, lets see this in action." << endl;
 
-  vector <int> integer_Input(3,0);
+  vector <int> integer_Input;
   cout << endl << "Choose two whole numbers you would like to multiply." << endl;
   cout << "Enter First number: ";
   cin >> integer_Input[0];
@@ -65,7 +65,5 @@ void ForLoop()
 
   int product = (integer_Input[0] * integer_Input[1]);
 
-  cout << endl << product;
-
-  cin >> integer_Input[2];
+  cout << endl << "Product: "<< product;
 }
